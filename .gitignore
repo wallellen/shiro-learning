@@ -9,4 +9,5 @@ buildNumber.properties
 .mvn/timing.properties
 
 *.idea
+.idea/workspace.xml
 shiro-learning.iml
