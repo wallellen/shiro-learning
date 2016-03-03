@@ -22,10 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sso" />
+        <module name="shiro-guide" />
+        <module name="shiro-tutorial" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="shiro-guide" target="1.5" />
+      <module name="shiro-tutorial" target="1.5" />
       <module name="sso" target="1.5" />
     </bytecodeTargetLevel>
   </component>
