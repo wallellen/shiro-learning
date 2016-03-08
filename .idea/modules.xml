@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shiro-guide/shiro-guide.iml" filepath="$PROJECT_DIR$/shiro-guide/shiro-guide.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-tutorial/shiro-tutorial.iml" filepath="$PROJECT_DIR$/shiro-tutorial/shiro-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-webapp-tutorial/shiro-webapp-tutorial.iml" filepath="$PROJECT_DIR$/shiro-webapp-tutorial/shiro-webapp-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso.iml" filepath="$PROJECT_DIR$/sso.iml" />
     </modules>
   </component>

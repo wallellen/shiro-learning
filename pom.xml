@@ -12,6 +12,7 @@
     <modules>
         <module>shiro-tutorial</module>
         <module>shiro-guide</module>
+        <module>shiro-webapp-tutorial</module>
     </modules>
 
     <properties>

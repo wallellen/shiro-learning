@@ -31,10 +31,18 @@
         <processorPath useClasspath="true" />
         <module name="shiro-guide" />
       </profile>
+      <profile default="false" name="Annotation profile for shiro-webapp-tutorial" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="shiro-webapp-tutorial" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shiro-guide" target="1.8" />
       <module name="shiro-tutorial" target="1.8" />
+      <module name="shiro-webapp-tutorial" target="1.8" />
       <module name="sso" target="1.8" />
     </bytecodeTargetLevel>
   </component>
