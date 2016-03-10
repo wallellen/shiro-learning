@@ -41,10 +41,21 @@
         request.setAttribute("account", SecurityUtils.getSubject().getPrincipals().oneByType(Map.class));
     %>
     <c:out value="${account.givenName}"/></shiro:user>!(
-        <shiro:user><a href="<c:url value="/logout"/>">Log out</a></shiro:user>
-        <shiro:guest><a href="<c:url value="/login.jsp"/>">Log in</a></shiro:guest>
+    <shiro:user><a href="<c:url value="/logout"/>">Log out</a></shiro:user>
+    <shiro:guest><a href="<c:url value="/login.jsp"/>">Log in</a></shiro:guest>
     )
 
+</p>
+
+<p>
+    <shiro:authenticated>
+
+<p>Visit your <a href="<c:url value="/account"/>">account page</a></p>
+</shiro:authenticated>
+<shiro:notAuthenticated>
+    <p>If you want to access the authentication-only <a href="<c:url value="/account"/>">account page</a> you will need
+        to login first</p>
+</shiro:notAuthenticated>
 </p>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
