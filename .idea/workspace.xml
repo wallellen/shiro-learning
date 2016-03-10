@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0968e885-c526-4735-a0dc-ffca851710eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/account/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/home.jsp" afterPath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/shiro.ini" afterPath="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/shiro.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shiro-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/shiro.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8097754">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -63,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.121212">
-              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.37016574">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,9 +120,9 @@
         <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/include.jsp" />
         <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/account/index.jsp" />
+        <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/shiro.ini" />
         <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/home.jsp" />
-        <option value="$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/login.jsp" />
       </list>
     </option>
   </component>
@@ -793,12 +789,12 @@
       <workItem from="1457563979520" duration="44000" />
       <workItem from="1457564036355" duration="789000" />
       <workItem from="1457618077777" duration="1388000" />
-      <workItem from="1457619738145" duration="1346000" />
+      <workItem from="1457619738145" duration="3075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19966000" />
+    <option name="totallyTimeSpent" value="21695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -1202,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.121212">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.909091">
@@ -1220,8 +1208,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/WEB-INF/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8097754">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-webapp-tutorial/src/main/webapp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37016574">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>

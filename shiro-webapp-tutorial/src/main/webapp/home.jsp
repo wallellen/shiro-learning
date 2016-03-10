@@ -58,6 +58,22 @@
 </shiro:notAuthenticated>
 </p>
 
+
+<h2>Roles:</h2>
+
+<p>Here are the roles that you have and you don't have. Logout and log back in under different user account to see
+    different roles.</p>
+
+<h3>Roles you have:</h3>
+<shiro:hasRole name="Captions">Captions<br/></shiro:hasRole>
+<shiro:hasRole name="Officers">Bad guys<br/></shiro:hasRole>
+<shiro:hasRole name="Enlisted">Enlisted<br/></shiro:hasRole>
+
+<h3>Roles you don't have</h3>
+<shiro:lacksRole name="Captions">Captions<br/></shiro:lacksRole>
+<shiro:lacksRole name="Officers">Bad guys<br/></shiro:lacksRole>
+<shiro:lacksRole name="Enlisted">Enlisted<br/></shiro:lacksRole>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
