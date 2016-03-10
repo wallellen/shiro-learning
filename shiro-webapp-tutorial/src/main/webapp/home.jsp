@@ -1,3 +1,7 @@
+<%@ page import="org.apache.shiro.SecurityUtils" %>
+<%@ page import="java.util.Map" %>
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   ~ Copyright (c) 2013 Les Hazlewood and contributors
   ~
@@ -17,14 +21,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Apache Shiro Tutorial Webapp</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Add some nice styling and functionality.  We'll just use Twitter Bootstrap -->
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+    <title>Apache Shiro Tutorial Webapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add some nice styling and functionality.  We'll just use Twitter Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
 </head>
 <body>
 <h1>Hello, world!</h1>
+
+<p>
+    Hi <shiro:guest>Guest</shiro:guest><shiro:user>
+    <%
+        // this should never be done in a normal page and should exist in a
+        // proper mvn controller of some sort, but for this tutorial, we will
+        // just pull out stormpath account data from shiro's principal collection
+        // to reference in the <c:out> tag next:
+
+        request.setAttribute("account", SecurityUtils.getSubject().getPrincipals().oneByType(Map.class));
+    %>
+    <c:out value="${account.givenName}"/></shiro:user>!(
+        <shiro:user><a href="<c:url value="/logout"/>">Log out</a></shiro:user>
+        <shiro:guest><a href="<c:url value="/login.jsp"/>">Log in</a></shiro:guest>
+    )
+
+</p>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
